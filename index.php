@@ -53,7 +53,7 @@
         
         </tbody>
     </table>
-<form>
+<form action="insert_data.php" method="post">
     <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -85,7 +85,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-success">Add</button>
+        <input type="submit" class="btn btn-success" name="add_students" value="ADD">
       </div>
     </div>
   </div>
