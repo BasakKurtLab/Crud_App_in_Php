@@ -62,6 +62,13 @@
 
     ?>
 
+<?php
+
+            if(isset($_GET['message'])){
+                echo "<h6>".$_GET['insert_msg']."</h6>";
+            }
+
+    ?>
 
 
 <form action ="insert_data.php" method="post" >
